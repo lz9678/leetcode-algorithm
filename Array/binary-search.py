@@ -1,5 +1,5 @@
 
-# Method 1: Brute Force
+# Method 1: 
 class Solution:
 	def search(self, nums: List[int], target: int) -> int:
 		for i in range(0, len(nums)):
