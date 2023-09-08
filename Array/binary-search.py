@@ -9,7 +9,9 @@ class Solution:
 		return -1
 
 
-# Method 2: Binary Search 
+# Method 2: 
+# Array 1) Sequential 2) No duplicates --> Binary Search
+# Binary Search v1 [left, right)
 class Solution:
 	def search(self, nums: List[int], target: int) -> int:
 		left = 0
@@ -28,7 +30,7 @@ class Solution:
 		return -1
 
 
-# Method 3:
+# Binary Search v2 [left, right)
 class Solution:
 	def search(self, nums: List[int], target: int) -> int:
 		left = 0
